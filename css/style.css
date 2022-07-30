@@ -3,7 +3,7 @@
 }
 body{
     font-family: sans-serif;
-    background-image: url(/pics/logo6.jpg);
+    background-image: url(../pics/logo6.jpg);
     background-size: cover;
 }
 *{
@@ -206,4 +206,48 @@ div.gallery img {
 .about{
     font-size: 50px;
     padding-bottom: 10px;
+}
+.icon{
+padding: 20px;
+}
+.show-case{
+    background-color:rgba(5, 5, 5, 0.7) ;
+}
+/*form*/
+form{
+    background-color: rgba(5, 5, 5, 0.7);
+    padding: 15px;
+    margin-right: 35%;
+    border-radius: 15px;
+    margin-left: 30%;
+    position: static;
+    margin-bottom: 8%;
+    margin-top:5%;
+}
+label{
+    color: white;
+    font-size: 15px;
+}
+input{
+    padding: 5px;
+    margin: 60px;
+}
+.head{
+    color: white;
+}
+.reset{
+    color: white;
+}
+.reset :hover{
+    color: blue;
+}
+.log{
+    background-color: rgba(5, 5, 5, 0.7);
+    padding: 15px;
+    margin-right: 35%;
+    border-radius: 15px;
+    margin-left: 30%;
+    position: static;
+    margin-bottom: 8%;
+    margin-top:8%;
 }
