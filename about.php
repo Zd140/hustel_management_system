@@ -59,7 +59,7 @@
       </div>
 
        <!--foooter-->
-       <footer>
+       <footer class="">
         <div class="w3-container w3-white">
           <div class="w3-third icon">
             <span ><i class="fa-brands fa-whatsapp w3-text-green"></i></span>
