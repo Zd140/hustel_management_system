@@ -7,10 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/w3.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/fontawesome-free-6.1.2-web/css/all.css">
-  <link rel="stylesheet" href="css/fontawesome-free-6.1.2-web/css/all.min.css">
-  <link rel="stylesheet" href="css/fontawesome-free-6.1.2-web/css/brands.css">
-  <link rel="stylesheet" href="css/fontawesome-free-6.1.2-web/css/brands.min.css">
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header class="header">
