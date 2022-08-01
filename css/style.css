@@ -200,13 +200,12 @@ div.gallery img {
     font-family: Bahnschrift SemiLight;
     
   }
-/*.categories  {
+.categories  {
     padding: 15px;
-}*/
+}
 .about{
     font-size: 50px;
     padding-bottom: 10px;
-    padding-left: 15px;
 }
 .icon{
 padding: 20px;
@@ -216,6 +215,7 @@ padding: 20px;
 }
 /*form*/
 form{
+    background-color: rgba(5, 5, 5, 0.7);
     padding: 15px;
     margin-right: 35%;
     border-radius: 15px;
@@ -242,17 +242,12 @@ input{
     color: blue;
 }
 .log{
+    background-color: rgba(5, 5, 5, 0.7);
     padding: 15px;
     margin-right: 35%;
     border-radius: 15px;
     margin-left: 30%;
     position: static;
-    margin-bottom: 5%S;
+    margin-bottom: 8%;
     margin-top:8%;
-}
-.info-box{
-    background-color: rgba(5, 5, 5, 0.7);
-}
-.cont{
-    background-color: rgba(5, 5, 5, 0.7);
 }
