@@ -11,33 +11,26 @@
 </head>
 <body>
   <?php include 'includes/header.php'?>
+
       <!--form-->
   <div class="w3-container">
-  <div class="container">
-  <h2 class="w3-center">Register</h2>
-  <form action="/action_page.php">
+    <div class="w3-container">
+    <div class="container">
+        <h2 class="w3-center">Contact Us <i class="fa fa-address-card-o" style="font-size:24px"></i></h2>
+        <form action="/action_page.php">
 
 
-  <div class="row">
-    <div class="col-25">
-      <label for="username">User name</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="username" name="username" placeholder="username">
-    </div>
-  </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="username">User name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="username" name="username" placeholder="User name" required>
+          </div>
+        </div>
 
 
-  <div class="row">
-    <div class="col-25">
-      <label for="email">Email</label>
-    </div>
-    <div class="col-75">
-      <input type="email" id="email" name="email" placeholder="example@gmail.com">
-    </div>
-  </div>
-
-       <div class="row">
+        <div class="row">
           <div class="col-25">
             <label for="password">Password</label>
           </div>
@@ -46,16 +39,8 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-25">
-            <label for="number">Phone number</label>
-          </div>
-          <div class="col-75">
-            <input type="" id="number" name="number" placeholder="+237 655 40 56 73" required>
-          </div>
-        </div>
 
-  <div class="row">
+        <div class="row">
           <div class="col-25">
             <label for="country">Region</label>
           </div>
@@ -75,22 +60,27 @@
         </div>
 
 
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Any issues fell free to ask" style="height:200px"></textarea>
+          </div>
+        </div>
 
-  
 
-  <br>
-  <div class="row">
-    <input type="submit" value="Submit">
+        <br>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+        </form>
   </div>
-  <br>
-  <div class="w3-container w3-center"><span class="link">Already a members ?<a href="login.php">login</a></span></div>
-  </form>
-</div>
+    </div>     
 
   </div>
-      
-        <!--footer-->
-      <?php include 'includes/footer.php'?>
+        <!--foooter-->
+        <?php include 'includes/footer.php'?>
   <script src="javascript/script.js"></script>
   <script src="javascript/view.js"></script>
 </body>

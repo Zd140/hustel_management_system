@@ -7,32 +7,10 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/w3.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <div class="row align-item-center justify-content-between">
-        <div class="logo">
-         <h1>Royal<span>hustel</span></h1>
-        </div>
-        <button type="button" class="nav-toggler">
-          <span></span>
-        </button>
-        <nav class="nav">
-          <ul>
-            <li><a href="index.html" class="active">home</a></li>
-            <li><a href="sigin.html" class="active">register</a></li>
-            <li><a href="login.html" class="active">login</a></li>
-            <li><a href="about.html" class="active">about</a></li>
-            <li><a href="#" class="active">profile</a></li>
-
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
+  <?php include 'includes/header.php'?>
   <!--main-->
   <div class="w3-container text w3-center w3-text-white text1">
       <h1>Sleep save and <span>secured</span></h1>
@@ -97,37 +75,25 @@
 
 </div>
 <!--cateqoris and about-->
-<div class="w3-container">
-  <div class="w3-third w3-text-white">
-    <h1 style="border-bottom: 1px solid white;">Categories</h1>
-    <p>student hustel</p>
-    <p>family</p>
-    <p>groups</p>
-    <p>confrence halls</p>
-    <hr>
-    <a href="view.html"><button type="button">view rooms</button></a>
-  </div>
-  <div class="w3-twothird w3-text-white">
-    <span class="about w3-text-blue">Royalhostel</span><br>
-    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus consequatur voluptatum, culpa aspernatur consequuntur velit sequi itaque error porro mollitia nulla inventore laboriosam, ab corporis eligendi temporibus sunt! Iure quos dignissimos laborum, nisi unde molestias, quo ex et hic maiores recusandae saepe, voluptatibus sapiente nam eveniet facere temporibus. Iusto, reiciendis?</span>
+  <div class="w3-container">
+    <div class="w3-third w3-text-white">
+      <h1 style="border-bottom: 1px solid white;">Categories</h1>
+      <p>student hustel</p>
+      <p>family</p>
+      <p>groups</p>
+      <p>confrence halls</p>
+      <hr>
+      <a href="view.php"><button type="button">view rooms</button></a>
+    </div>
+    <div class="w3-twothird w3-text-white">
+      <span class="about w3-text-blue">Royalhostel</span><br>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus consequatur voluptatum, culpa aspernatur consequuntur velit sequi itaque error porro mollitia nulla inventore laboriosam, ab corporis eligendi temporibus sunt! Iure quos dignissimos laborum, nisi unde molestias, quo ex et hic maiores recusandae saepe, voluptatibus sapiente nam eveniet facere temporibus. Iusto, reiciendis?</span>
   </div>
 </div>
 <!--footer-->
-<footer>
-  <div class="w3-container w3-white">
-    <div class="w3-third icon">
-      <span ><i class="fa-brands fa-whatsapp w3-text-green"></i></span>
-      <span style="padding-left: 15px;"><i class="fa-brands fa-twitter w3-text-blue"></i></span>
-      <span style="padding-left: 15px;"><i class="fa-brands fa-facebook w3-text-blue"></i></span>
-    </div>
-    <div class="w3-third w3-center" style="padding-top: 15px;">
-      <span>Office:</span><br>
-      <span><i class="fa-solid fa-phone"></i></span>
-      <span>654-453-222</span>
-    </div>
-    <div class="w3-third"><a href="#" class="w3-left">privacy</a></div>
-  </div>
-</footer>
+<?php include 'includes/footer.php'?>
   <script src="javascript/script.js"></script>
+  <script src="javascript/view.js"></script>
+
 </body>
 </html>
