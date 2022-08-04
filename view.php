@@ -17,42 +17,124 @@
     <h1>Sleep save and <span>secured</span></h1>
     <h2>Welcome to cameroon's No.1</h2>
 </div>
-<!--galary-->
+<!--categories-->
 <div class="w3-container">
-    <div class="w3-third" style=" background-color: rgba(5, 5, 5, 0.7);">
-      <div class="w3-container" style="padding-bottom: 15px;">
-          <div class="w3-third w3-text-white categories w3-center">
-            <h1 style="border-bottom: 1px solid white;">Categories</h1>
-            <p>- Student</p>
-            <span>25 000.0FCFA</span>
-            <p>- Family</p>
-            <span>45 000.0FCFA</span>
-            <p>- Confrence-halls </p>
-            <span>20 000.0FCFA</span>
-            <hr>
-            <a href="checkin.php"><button type="button">CHECKIN</button></a>
-          </div>  
-      </div>
-      <div>
-        <h1 class="w3-text-white">Safty <span> <i class="fa-solid fa-mask-face w3-text-blue"></i></span></h1>
-        <p class="w3-text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe praesentium animi pariatur ab sed ut dolorum, totam officiis suscipit repellat?
-        </p>
-      </div>
-    </div>
-    <div class="w3-twothird">
-      <div class="w3-content w3-section">
-        <img class="mySlides w3-animate-fading" src="pics/pic1.jpg" style="width:100%">
-        <img class="mySlides w3-animate-fading" src="pics/pic2.jpg" style="width:100%">
-        <img class="mySlides w3-animate-fading" src="pics/pic3.jpg" style="width:100%">
-        <img class="mySlides w3-animate-fading" src="pics/pic4.jpg" style="width:100%">
-        <img class="mySlides w3-animate-fading" src="pics/pic5.jpg" style="width:100%">
-        <img class="mySlides w3-animate-fading" src="pics/pic5.jpg" style="width:100%">
-        <img class="mySlides w3-animate-fading" src="pics/pic5.jpg" style="width:100%">
-      </div>
-      
+    <table class="w3-table-all w3-card-4">
+        <tr>
+          <th>Room categoris</th>
+          <th>prices <b>(FCFA)</b></th>
+        </tr>
+        <tr>
+          <td>Collage hostel room</td>
+          <td>20 000.0</td> 
+        </tr>
+        <tr>
+          <td>Hostel single rooms</td>
+          <td>15 000.0</td>
+        </tr>
+        <tr>
+          <td>Dorm rooms</td>
+          <td>20 000.0</td>
+        </tr>
+        <tr>
+          <td>Private single room</td>
+          <td>25 000.0</td>
+        </tr>
+      </table>
     </div>
 </div>
+<br>
+<!--ROOM DISPLAY AS SPECIFIED ABOVE-->
+<div class="w3-container" style="background-color: rgba(255, 255, 255, 0.7);">
+  <!--collage hostel rooms-->
+  <h2>collage rooms</h2>
+      <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="pics/pic10.jpg" style="width:100%">
+
+          </div>
+      </div>
+
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="pics/pic8.jpg" style="width:100%">
+            
+          </div>
+        </div>
+
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="pics/pic9.jpg" style="width:100%; height:293px;">
+            
+          </div>
+        </div>
+      </div>
+      <h2>Hostel single rooms</h2>
+      <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="pics/pic1.jpg" style="width:100%; height:293px;">
+          </div>
+        </div>
+
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="pics/pic17.jpg" style="width:100%">
+          </div>
+        </div>
+
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="pics/pic20.jpg" style="width:100%; height:293px;">
+          </div>
+        </div>
+      </div>
+
+      <h2>Dorm rooms</h2>
+      <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="pics/pic12.jpg" style="width:100%">
+          </div>
+        </div>
+
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="pics/pic13.jpg" style="width:100%; height:293px;">
+          </div>
+        </div>
+
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="pics/pic14.jpg" style="width:100%">
+          </div>
+        </div>
+      </div>
+
+      <h2> Private single rooms</h2>
+      <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="pics/pic2.jpg" style="width:100%; height:293px;">
+          </div>
+        </div>
+
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="pics/pic21.jpg" style="width:100%; height:293px;">
+          </div>
+        </div>
+
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="pics/pic22.jpg" style="width:100%; height:293px;">
+          </div>
+        </div>
+      </div><br>
+        <div class="w3-container w3-center"><a href="checkin.php"><button type="button" class="w3-blue view">click to check in</button></a></div>
+      <!---->
+</div><br>
 <!--footer-->
 <?php include 'includes/footer.php'?>
   <script src="javascript/script.js"></script>

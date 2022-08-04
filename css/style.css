@@ -308,8 +308,13 @@ input[type=text], select, textarea {
     }
   }
   .info{
-    background-color: rgba(5, 5, 5, 0.7)c;
+    background-color: rgba(5, 5, 5, 0.7);
   }
   .link a:hover{
     color: blue;
   }
+  .view{
+    border: none;
+    border-radius: 5px;
+  }
+  

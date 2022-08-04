@@ -31,14 +31,13 @@
 
 
         <div class="row">
-          <div class="col-25">
-            <label for="password">Password</label>
-          </div>
-          <div class="col-75">
-            <input type="password" id="password" name="password" placeholder="Password" required>
-          </div>
-        </div>
-
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="email" name="email" placeholder="example@gmail.com">
+            </div>
+       </div>
 
         <div class="row">
           <div class="col-25">

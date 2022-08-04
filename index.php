@@ -24,9 +24,9 @@
           <div class="responsive">
               <div class="gallery">
                 
-                  <img src="pics/pic1.jpg" alt="Cinque Terre" style="width: 100%; height:250px;">
+                  <img src="pics/pic26.jpg" alt="Cinque Terre" style="width: 100%; height:250px;">
       
-                <div class="desc">are you a student?</div>
+                <div class="desc">parent with kids and need accomadtion</div>
               </div>
             </div>
             
@@ -34,27 +34,27 @@
             <div class="responsive">
               <div class="gallery">
                
-                  <img src="pics/pic2.jpg" alt="Forest" style="width: 100%; height:250px;">
+                  <img src="pics/pic24.jpg" alt="Forest" style="width: 100%; height:250px;">
                
-                <div class="desc">Are you worker?</div>
+                <div class="desc">In need of accomadation</div>
               </div>
             </div>
             
             <div class="responsive">
               <div class="gallery">
                
-                  <img src="pics/pic3.jpg" alt="Northern Lights" style="width: 100%; height:250px;" >
+                  <img src="pics/pic25.jpg" alt="Northern Lights" style="width: 100%; height:250px;" >
                
-                <div class="desc">are you married?</div>
+                <div class="desc">are you commig for school</div>
               </div>
             </div>
             
             <div class="responsive">
               <div class="gallery">
                
-                  <img src="pics/pic4.jpg" alt="Mountains" style="width: 100%; height:250px;">
+                  <img src="pics/26.jpg" alt="Mountains" style="width: 100%; height:250px;">
                 
-                <div class="desc">are you a family man</div>
+                <div class="desc">Are you on vacation</div>
               </div>
             </div>
       </div>
@@ -78,10 +78,10 @@
   <div class="w3-container">
     <div class="w3-third w3-text-white">
       <h1 style="border-bottom: 1px solid white;">Categories</h1>
-      <p>student hustel</p>
-      <p>family</p>
-      <p>groups</p>
-      <p>confrence halls</p>
+      <p>Collage single rooms</p>
+      <p>Hostel single</p>
+      <p>Dorm single</p>
+      <p>Private</p>
       <hr>
       <a href="view.php"><button type="button">view rooms</button></a>
     </div>

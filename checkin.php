@@ -16,7 +16,7 @@
       
       <div class="w3-container">
   <div class="container">
-  <h2 class="w3-center">Register</h2>
+  <h2 class="w3-center">Checkin</h2>
   <form action="/action_page.php">
 
 
@@ -70,15 +70,15 @@
 
     <div class="row">
           <div class="col-25">
-            <label for="country">Status</label>
+            <label for="country">Cagories fo rooms</label>
           </div>
           <div class="col-75">
             <select id="country" name="country">
             <option></option>
-              <option value="STUDENT">STUDENT</option>
-              <option value="PARENT">PARENT</option>
-              <option value="WORKER">wORKER</option>
-
+              <option value="collage">Collage single</option>
+              <option value="hostel">Hostel single</option>
+              <option value="dorm">Dorm rooms</option>
+              <option value="private">Private singles</option>
             </select>
           </div>
         </div>
@@ -112,7 +112,7 @@
 
   <br>
   <div class="row">
-    <input type="submit" value="Make payment">
+    <input type="submit" value="make payment">
   </div>
   
 </div>

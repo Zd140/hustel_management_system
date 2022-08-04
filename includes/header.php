@@ -14,8 +14,8 @@
             <li><a href="login.php" class="active">login</a></li>
             <li><a href="about.php" class="active">about</a></li>
             <li><a href="contact.php" class="active">Contact</a></li>
-            <li><a href="#" class="active">profile</a></li>
-
+            <li><a href="profile.php" class="active">profile</a></li>
+            <li><a href="dashboard.php" class="active">Dashbpard</a></li>
           </ul>
         </nav>
       </div>
