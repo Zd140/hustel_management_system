@@ -5,6 +5,7 @@ body{
     font-family: sans-serif;
     background-image: url(../pics/logo6.jpg);
     background-size: cover;
+    min-height: 100vh;
 }
 *{
     box-sizing: border-box;
@@ -317,4 +318,4 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 5px;
   }
-  
+ 
