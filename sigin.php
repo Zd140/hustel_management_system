@@ -1,75 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sigin</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/w3.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <!--header-->
-    <header class="header">
-        <div class="container">
-          <div class="row align-item-center justify-content-between">
-            <div class="logo">
-             <h1>Royal<span>hustel</span></h1>
-            </div>
-            <button type="button" class="nav-toggler">
-              <span></span>
-            </button>
-            <nav class="nav">
-              <ul>
-                <li><a href="index.html" class="active">home</a></li>
-                <li><a href="sigin.html" class="active">register</a></li>
-                <li><a href="login.html" class="active">login</a></li>
-                <li><a href="about.html" class="active">about</a></li>
-                <li><a href="#" class="active">profile</a></li>
-    
-              </ul>
-            </nav>
+  <?php include 'includes/header.php'?>
+      <!--form-->
+  <div class="w3-container">
+  <div class="container">
+  <h2 class="w3-center">Register</h2>
+  <form action="/action_page.php">
+
+
+  <div class="row">
+    <div class="col-25">
+      <label for="username">User name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="username" name="username" placeholder="username">
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-25">
+      <label for="email">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="email" id="email" name="email" placeholder="example@gmail.com">
+    </div>
+  </div>
+
+       <div class="row">
+          <div class="col-25">
+            <label for="password">Password</label>
+          </div>
+          <div class="col-75">
+            <input type="password" id="password" name="password" placeholder="Password" required>
           </div>
         </div>
-      </header>
 
-      <!--form-->
-      <div class="cont">
-        <div class="w3-container">
-          <form action="">
-          <h2 class="head w3-center">Register</h2> 
-            <label for="username">User name:</label><br>
-            <input type="username" id="username" name="username" placeholder="username" required><br>
-            <label for="email">Email</label><br>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br>
-            <label for="password">Password</label><br>
-            <input type="password" id="email" name="email" placeholder="password" required><br><br>
-            <input type="submit" value="Register"><br>
-            <span class="reset">Have an account ?<a href="login.html">login</a></span>
-          </form>
+        <div class="row">
+          <div class="col-25">
+            <label for="number">Phone number</label>
+          </div>
+          <div class="col-75">
+            <input type="" id="number" name="number" placeholder="+237 655 40 56 73" required>
+          </div>
         </div>
-      
+
+  <div class="row">
+          <div class="col-25">
+            <label for="country">Region</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+            <option></option>
+              <option value="southwest">South_west</option>
+              <option value="norhwest">North_west</option>
+              <option value="litoral">Litoral</option>
+              <option value="north">North</option>
+              <option value="adamawa">Adamawa</option>
+              <option value="farnorth">far_north</option>
+              <option value="east">East</option>
+
+            </select>
+          </div>
+        </div>
+
+
+
+  
+
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  <br>
+  <div class="w3-container w3-center"><span class="link">Already a members ?<a href="login.php">login</a></span></div>
+  </form>
+</div>
+
+  </div>
       
         <!--footer-->
-        <footer>
-          <div class="w3-container w3-white">
-            <div class="w3-third icon">
-              <span ><i class="fa-brands fa-whatsapp w3-text-green"></i></span>
-              <span style="padding-left: 15px;"><i class="fa-brands fa-twitter w3-text-blue"></i></span>
-              <span style="padding-left: 15px;"><i class="fa-brands fa-facebook w3-text-blue"></i></span>
-            </div>
-            <div class="w3-third w3-center" style="padding-top: 15px;">
-              <span>Office:</span><br>
-              <span><i class="fa-solid fa-phone"></i></span>
-              <span>654-453-222</span>
-            </div>
-            <div class="w3-third"><a href="#" class="w3-left">privacy</a></div>
-          </div>
-        </footer>
-      </div>
-      <!--javascript-->
-      <script src="javascript/script.js"></script>
-</body>
+      <?php include 'includes/footer.php'?>
+  <script src="javascript/script.js"></script>
+  <script src="javascript/view.js"></script>
 </body>
 </html>

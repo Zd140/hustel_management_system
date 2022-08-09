@@ -5,6 +5,7 @@ body{
     font-family: sans-serif;
     background-image: url(../pics/logo6.jpg);
     background-size: cover;
+    min-height: 100vh;
 }
 *{
     box-sizing: border-box;
@@ -17,7 +18,7 @@ ul{
 a{
     text-decoration: none;
 }
-.container{
+.container1{
     max-width: 1170px;
     margin: auto;
 }
@@ -215,44 +216,106 @@ padding: 20px;
     background-color:rgba(5, 5, 5, 0.7) ;
 }
 /*form*/
-form{
-    padding: 15px;
-    margin-right: 35%;
-    border-radius: 15px;
-    margin-left: 30%;
-    position: static;
-    margin-bottom: 8%;
-    margin-top:5%;
-}
-label{
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
     color: white;
-    font-size: 15px;
-}
-input{
-    padding: 5px;
-    margin: 60px;
-}
-.head{
-    color: white;
-}
-.reset{
-    color: white;
-}
-.reset :hover{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .container {
+    border-radius: 5px;
+    background-color:rgba(225,225,225,.5);
+    padding: 20px;
+  }
+  #password{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 12px;
+  }
+  #email{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 12px;
+  }
+  #number{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 12px;
+  }
+  #quantity{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 12px;
+  }
+
+#check{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 12px;
+  }
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .info{
+    background-color: rgba(5, 5, 5, 0.7);
+  }
+  .link a:hover{
     color: blue;
-}
-.log{
-    padding: 15px;
-    margin-right: 35%;
-    border-radius: 15px;
-    margin-left: 30%;
-    position: static;
-    margin-bottom: 5%S;
-    margin-top:8%;
-}
-.info-box{
-    background-color: rgba(5, 5, 5, 0.7);
-}
-.cont{
-    background-color: rgba(5, 5, 5, 0.7);
-}
+  }
+  .view{
+    border: none;
+    border-radius: 5px;
+  }
+ 
