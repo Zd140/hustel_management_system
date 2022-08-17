@@ -47,51 +47,51 @@
 <!--ROOM DISPLAY AS SPECIFIED ABOVE-->
 <div class="w3-container" style="background-color: rgba(255, 255, 255, 0.7);">
   <!--collage hostel rooms-->
-  <h2>collage rooms</h2>
+  <a href="collage.php"><h2>collage rooms</h2></a>
       <div class="w3-row-padding w3-margin-top">
         <div class="w3-third">
           <div class="w3-card">
-            <img src="pics/pic10.jpg" style="width:100%">
+            <img src="pics/pic11.jpg" style="width:100%">
 
           </div>
       </div>
 
         <div class="w3-third">
           <div class="w3-card">
-            <img src="pics/pic8.jpg" style="width:100%">
+            <img src="pics/pic12.jpg" style="width:100%">
             
           </div>
         </div>
 
         <div class="w3-third">
           <div class="w3-card">
-            <img src="pics/pic9.jpg" style="width:100%; height:293px;">
+            <img src="pics/pic14.jpg" style="width:100%; height:293px;">
             
           </div>
         </div>
       </div>
-      <h2>Hostel single rooms</h2>
+      <a href="hostel.php"><h2>Hostel rooms</h2></a>
       <div class="w3-row-padding w3-margin-top">
         <div class="w3-third">
           <div class="w3-card">
-            <img src="pics/pic1.jpg" style="width:100%; height:293px;">
+            <img src="pics/pic28.jpg" style="width:100%; height:293px;">
           </div>
         </div>
 
         <div class="w3-third">
           <div class="w3-card">
-            <img src="pics/pic17.jpg" style="width:100%">
+            <img src="pics/pic29.jpg" style="width:100%">
           </div>
         </div>
 
         <div class="w3-third">
           <div class="w3-card">
-            <img src="pics/pic20.jpg" style="width:100%; height:293px;">
+            <img src="pics/pic30.jpg" style="width:100%; height:293px;">
           </div>
         </div>
       </div>
 
-      <h2>Dorm rooms</h2>
+      <a href="dorm.php"><h2>Dorm</h2></a>
       <div class="w3-row-padding w3-margin-top">
         <div class="w3-third">
           <div class="w3-card">
@@ -112,7 +112,7 @@
         </div>
       </div>
 
-      <h2> Private single rooms</h2>
+      <a href="private.php"><h2> Private single rooms</h2></a>
       <div class="w3-row-padding w3-margin-top">
         <div class="w3-third">
           <div class="w3-card">

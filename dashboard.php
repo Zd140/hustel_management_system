@@ -12,7 +12,7 @@
   <nav>
     <div class="logo-name">
       <div class="logo-image">
-        <img src="logo.jpg" alt="logo">
+        <img src="pics/logo 2.jpg" alt="logo">
       </div>
       <span class="logo_name">
         Royalhostel
@@ -26,14 +26,18 @@
           <span class="link-name">Dashbord</span>
 
         </a></li>
-        <li><a href="#">
+        <li><a href="login.php">
           <i class="fa fa-home" style="font-size:30px;"></i>
           <span class="link-name">admin-login</span>
-          
         </a></li>
         <li><a href="#">
           <i class="fa fa-home" style="font-size:30px;"></i>
           <span class="link-name">register-members</span>
+          
+        </a></li>
+        <li><a href="view.php">
+          <i class="fa fa-home" style="font-size:30px;"></i>
+          <span class="link-name">add rooms</span>
           
         </a></li>
         <li><a href="#">
@@ -71,7 +75,7 @@
         <input type="text" placeholder="search here...">
       </div>
 
-      <img src="img.jpd" alt="profilepic">
+      <img src="pics/pic27.jpg" alt="profilepic">
     </div>
 
     <div class="dash-content">
@@ -145,7 +149,6 @@
       </div>
     </div>
   </section>
-  
   
   <script src="javascript/dashboard.js"></script>
 </body>

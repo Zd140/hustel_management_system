@@ -7,77 +7,40 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/w3.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/forms.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 </head>
 <body>
   <?php include 'includes/header.php'?>
 
-      <!--form-->
-  <div class="w3-container">
-    <div class="w3-container">
-    <div class="container">
-        <h2 class="w3-center">Contact Us <i class="fa fa-address-card-o" style="font-size:24px"></i></h2>
-        <form action="/action_page.php">
+  <section>
+            <div class="form-container">
+                <h1>contact us
+                
+                </h1>
+                <form action="">
+                    <div class="control">
+                        <label for="name">Username</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="control">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                    </div>
 
-
-        <div class="row">
-          <div class="col-25">
-            <label for="username">User name</label>
-          </div>
-          <div class="col-75">
-            <input type="text" id="username" name="username" placeholder="User name" required>
-          </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-25">
-              <label for="email">Email</label>
+                    <div class="control">
+                        <label for="text">Comment</label>
+                        <textarea name="message" ></textarea>
+                    </div>
+                    
+                    <div class="control">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+                
             </div>
-            <div class="col-75">
-              <input type="email" id="email" name="email" placeholder="example@gmail.com">
-            </div>
-       </div>
-
-        <div class="row">
-          <div class="col-25">
-            <label for="country">Region</label>
-          </div>
-          <div class="col-75">
-            <select id="country" name="country">
-            <option></option>
-              <option value="southwest">South_west</option>
-              <option value="norhwest">North_west</option>
-              <option value="litoral">Litoral</option>
-              <option value="north">North</option>
-              <option value="adamawa">Adamawa</option>
-              <option value="farnorth">far_north</option>
-              <option value="east">East</option>
-
-            </select>
-          </div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-25">
-            <label for="subject">Subject</label>
-          </div>
-          <div class="col-75">
-            <textarea id="subject" name="subject" placeholder="Any issues fell free to ask" style="height:200px"></textarea>
-          </div>
-        </div>
-
-
-        <br>
-        <div class="row">
-          <input type="submit" value="Submit">
-        </div>
-        </form>
-  </div>
-    </div>     
-
-  </div>
+        </section>
         <!--foooter-->
         <?php include 'includes/footer.php'?>
   <script src="javascript/script.js"></script>

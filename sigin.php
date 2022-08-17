@@ -7,90 +7,41 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/w3.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/forms.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 </head>
 <body>
   <?php include 'includes/header.php'?>
-      <!--form-->
-  <div class="w3-container">
-  <div class="container">
-  <h2 class="w3-center">Register</h2>
-  <form action="/action_page.php">
 
-
-  <div class="row">
-    <div class="col-25">
-      <label for="username">User name</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="username" name="username" placeholder="username">
-    </div>
-  </div>
-
-
-  <div class="row">
-    <div class="col-25">
-      <label for="email">Email</label>
-    </div>
-    <div class="col-75">
-      <input type="email" id="email" name="email" placeholder="example@gmail.com">
-    </div>
-  </div>
-
-       <div class="row">
-          <div class="col-25">
-            <label for="password">Password</label>
-          </div>
-          <div class="col-75">
-            <input type="password" id="password" name="password" placeholder="Password" required>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-25">
-            <label for="number">Phone number</label>
-          </div>
-          <div class="col-75">
-            <input type="" id="number" name="number" placeholder="+237 655 40 56 73" required>
-          </div>
-        </div>
-
-  <div class="row">
-          <div class="col-25">
-            <label for="country">Region</label>
-          </div>
-          <div class="col-75">
-            <select id="country" name="country">
-            <option></option>
-              <option value="southwest">South_west</option>
-              <option value="norhwest">North_west</option>
-              <option value="litoral">Litoral</option>
-              <option value="north">North</option>
-              <option value="adamawa">Adamawa</option>
-              <option value="farnorth">far_north</option>
-              <option value="east">East</option>
-
-            </select>
-          </div>
-        </div>
-
-
-
-  
-
-  <br>
-  <div class="row">
-    <input type="submit" value="Submit">
-  </div>
-  <br>
-  <div class="w3-container w3-center"><span class="link">Already a members ?<a href="login.php">login</a></span></div>
-  </form>
-</div>
-
-  </div>
-      
-        <!--footer-->
-      <?php include 'includes/footer.php'?>
+  <section>
+            <div class="form-container">
+                <h1>Register</h1>
+                <form action="">
+                    <div class="control">
+                        <label for="name">Username</label>
+                        <input type="text" name="name" id="name" placeholder="Username">
+                    </div>
+                    <div class="control">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                    </div>
+                    
+                    <div class="control">
+                        <label for="psw">Password</label>
+                        <input type="password" name="psw" id="psw"placeholder="Password">
+                    </div>
+                    <div class="control">
+                        <input type="submit" value="Register">
+                    </div>
+                </form>
+                <div class="link">
+                   <span>Already have an account ?<a href="login.php">login</a></span> 
+                </div>
+            </div>
+        </section>
+        <!--foooter-->
+        <?php include 'includes/footer.php'?>
   <script src="javascript/script.js"></script>
   <script src="javascript/view.js"></script>
 </body>

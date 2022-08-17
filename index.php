@@ -67,12 +67,134 @@
   <hr>
 <!--recomend-->
 <div class="w3-container recomend">
-  <h3 class="w3-center w3-text-white text2">What cleint say about us :)</h3>
-  <div class="w3-half w3-text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, unde sapiente natus obcaecati excepturi dolorum veniam incidunt distinctio officia temporibus, voluptates expedita earum molestias? Similique optio nulla esse facere illum?</div>
-  <div class="w3-half w3-text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, unde sapiente natus obcaecati excepturi dolorum veniam incidunt distinctio officia temporibus, voluptates expedita earum molestias? Similique optio nulla esse facere illum?</div>
-  <div class="w3-half w3-text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, unde sapiente natus obcaecati excepturi dolorum veniam incidunt distinctio officia temporibus, voluptates expedita earum molestias? Similique optio nulla esse facere illum?</div>
-  <div class="w3-half w3-text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, unde sapiente natus obcaecati excepturi dolorum veniam incidunt distinctio officia temporibus, voluptates expedita earum molestias? Similique optio nulla esse facere illum?</div>
+  <h3 class="w3-center w3-text-white text2"><span>What clients say about us</span>
 
+  <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-smily-face fa-stack-1x fa-inverse"></i>
+  </span>
+  </h3>
+  <div class="w3-half">
+    <div class="w3-panel w3-card w3-white"   style="height:100px;margin-left:10px;">
+    <div class="w3-center" style="padding-top:15px;">
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <br>
+      <span>This is a place to be. I'll give 5stars</span><br>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+      </span>
+    </div>
+  
+  </div>
+    <div class="w3-panel w3-card w3-white " style="height:100px;margin-left:10px;">
+
+    <div class="w3-center" style="padding-top:15px;">
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      
+      <br>
+      <span>I love the location .It's so nice I'll give 4stars</span><br>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+      </span>
+    </div>
+  
+  </div>
+  </div>
+  <div class="w3-half">
+    <div class="w3-panel w3-card w3-white" style="height:100px;margin-left:10px;">
+
+    <div class="w3-center" style="padding-top:15px;">
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <br>
+      <span>It's just so confortable. I'll give 5stars</span><br>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+      </span>
+    </div>
+
+    </div>
+  <div class="w3-panel w3-card w3-white" style="height:100px;margin-left:10px;">
+  
+  <div class="w3-center" style="padding-top:15px;">
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+      
+      <br>
+      <span>I'll recomend for all. I'll give 3stars</span><br>
+      <span class="fa-stack ">
+        <i class="fa fa-circle fa-stack-2x "></i>
+        <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+      </span>
+    </div>
+
+  </div>
+  </div>
 </div>
 <!--cateqoris and about-->
   <div class="w3-container">
