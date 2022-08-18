@@ -17,19 +17,27 @@
   <section>
             <div class="form-container">
                 <h1>Register</h1>
-                <form action="">
+                <form action="" method="post" auto_comple="off">
                     <div class="control">
-                        <label for="name">Username</label>
-                        <input type="text" name="name" id="name" placeholder="Username">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username" placeholder="Username">
+                        <div class="error"></div>
                     </div>
                     <div class="control">
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                        <div class="error"></div>
                     </div>
                     
                     <div class="control">
-                        <label for="psw">Password</label>
-                        <input type="password" name="psw" id="psw"placeholder="Password">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password"placeholder="Password">
+                        <div class="error"></div>
+                    </div>
+                    <div class="control">
+                        <label for="password2">Password</label>
+                        <input type="password2" name="password2" id="password2"placeholder="Password2">
+                        <div class="error"></div>
                     </div>
                     <div class="control">
                         <input type="submit" value="Register">

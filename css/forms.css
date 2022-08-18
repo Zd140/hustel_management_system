@@ -69,3 +69,15 @@
   .link a:hover{
     opacity: 1;
   }
+  /*form validation*/
+  .control.succes input{
+    border-color: #09c372;
+  }
+  .control.error input{
+    border-color: #09c372;
+  }
+  .control .error{
+    color:#FF3860;
+    font-size: 9px;
+    height: 13px;
+  }
