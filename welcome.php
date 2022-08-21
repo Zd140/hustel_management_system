@@ -1,3 +1,16 @@
+<?php
+  $server = "localhost";
+  $username = "root";
+  $password = "";
+  $database = "users";
+  
+  //conncting to databese
+  $conn = mysqli_connect($server, $username, $password, $database);
+  session_start();
+   if(!$_SESSION['users']){
+    header("location: login.php");
+   }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +23,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <?php include 'include/header.php'?>
+  <?php include 'includes/header.php'?>
   <!--main-->
   <div class="w3-container text w3-center w3-text-white text1">
       <h1>Sleep save and <span>secured</span></h1>
@@ -205,7 +218,7 @@
       <p>Dorm single</p>
       <p>Private</p>
       <hr>
-      
+      <a href="view.php"><button type="button">view rooms</button></a>
     </div>
     <div class="w3-twothird w3-text-white">
       <span class="about w3-text-blue">Royalhostel</span><br>

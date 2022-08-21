@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <?php include 'includes/header.php'?>
+  <?php include 'include/header.php'?>
 
       <div class="info">
       <div class="w3-container info-box w3-text-white">
