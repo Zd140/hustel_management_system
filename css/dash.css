@@ -96,7 +96,7 @@ nav .menu-items{
 .menu-items li a{
     display: flex;
     align-items: center;
-    height: 60px;
+    height: 50px;
     text-decoration:none ;
     position: relative;
 }
@@ -128,7 +128,11 @@ nav .menu-items{
     transition: var(--trans-05);
 }
 
-
+nav.close li a .link-name{
+    opacity: 0;
+    pointer-events: none;
+    
+}
 .nav-links li a:hover i,
 .nav-links li a:hover .link-name{
 color:var(--primary-color);
@@ -145,7 +149,7 @@ color:var(--text-color);
 .menu-items .mode{
     display: flex;
     align-items: center;
-    
+    white-space: none;
 }
 .menu-items .mode-toggle{
     position: absolute;
@@ -325,7 +329,7 @@ nav.close ~ .dashboard .top{
  }
  .activity .activity-data{
     display: flex;
-   /* width: calc(100% / 5 - 15px);*/
+    width: calc(100% / 5 - 15px)
  }
   .activity-data .data{
     display: flex;

@@ -7,8 +7,26 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/w3.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
+
+<style>
+.bot{
+  background: red;
+    color: #fff;
+
+    font-size: 1.2em;
+    opacity: .7;
+    transition: opacity .3s ease;
+    height: 50px;
+    margin:20px;
+    border-radius:10px;
+    display:center;
+}
+
+
+</style>
+
 <body>
   <?php include 'includes/header.php'?>
     
@@ -47,7 +65,7 @@
 <!--ROOM DISPLAY AS SPECIFIED ABOVE-->
 <div class="w3-container" style="background-color: rgba(255, 255, 255, 0.7);">
   <!--collage hostel rooms-->
-  <a href="collage.php"><h2>collage rooms</h2></a>
+  <button class="bot"><a href="collage.php"><h2>collage rooms</h2></a></button>
       <div class="w3-row-padding w3-margin-top">
         <div class="w3-third">
           <div class="w3-card">
@@ -65,12 +83,12 @@
 
         <div class="w3-third">
           <div class="w3-card">
-            <img src="pics/pic14.jpg" style="width:100%; height:293px;">
+            <img src="pics/pic14.jpg" style="width:100%; height:331px;">
             
           </div>
         </div>
       </div>
-      <a href="hostel.php"><h2>Hostel rooms</h2></a>
+      <button class="bot"><a href="hostel.php"><h2>Hostel rooms</h2></a></button>
       <div class="w3-row-padding w3-margin-top">
         <div class="w3-third">
           <div class="w3-card">
@@ -80,7 +98,7 @@
 
         <div class="w3-third">
           <div class="w3-card">
-            <img src="pics/pic29.jpg" style="width:100%">
+            <img src="pics/pic29.jpg" style="width:100%; height:293px;">
           </div>
         </div>
 
@@ -91,11 +109,11 @@
         </div>
       </div>
 
-      <a href="dorm.php"><h2>Dorm</h2></a>
+      <button class="bot"><a href="dorm.php"><h2>Dorm rooms</h2></a></button>
       <div class="w3-row-padding w3-margin-top">
         <div class="w3-third">
           <div class="w3-card">
-            <img src="pics/pic12.jpg" style="width:100%">
+            <img src="pics/pic12.jpg" style="width:100%; height:293px;">
           </div>
         </div>
 
@@ -107,12 +125,12 @@
 
         <div class="w3-third">
           <div class="w3-card">
-            <img src="pics/pic14.jpg" style="width:100%">
+            <img src="pics/pic14.jpg" style="width:100%; height:293px;">
           </div>
         </div>
       </div>
 
-      <a href="private.php"><h2> Private single rooms</h2></a>
+      <button class="bot"><a href="private.php"><h2> Private single rooms</h2></a></button>
       <div class="w3-row-padding w3-margin-top">
         <div class="w3-third">
           <div class="w3-card">

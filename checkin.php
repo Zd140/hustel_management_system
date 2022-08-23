@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/w3.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/forms.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   
 </head>
 <body>
@@ -77,7 +77,7 @@ function test_input($data) {
   }
 
 ?>
-
+<br><br>
   <section>
             <div class="form-container">
                 <h1>Checkin</h1>
@@ -129,21 +129,7 @@ function test_input($data) {
     </section>
         <br><br>
         <!--foooter-->
-<?php
-echo "<h2>Your Input:</h2>";
-echo $name;
-echo "<br>";
-echo $tel;
-echo "<br>";
-echo $number;
-echo "<br>";
-echo $room;
-echo "<br>";
-echo $date;
-echo "<br>";
-echo $date1;
-
-?>
+<br><br>
         <?php include 'includes/footer.php'?>
   <script src="javascript/script.js"></script>
   <script src="javascript/view.js"></script>

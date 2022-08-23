@@ -12,7 +12,7 @@
   
 </head>
 <body>
-  <?php include 'include/header.php'?>
+  <?php include 'includes/header.php'?>
   <?php
 // define variables and set to empty values
 $nameErr = $emailErr = $telErr = $messageErr="";

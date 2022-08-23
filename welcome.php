@@ -1,16 +1,4 @@
-<?php
-  $server = "localhost";
-  $username = "root";
-  $password = "";
-  $database = "users";
-  
-  //conncting to databese
-  $conn = mysqli_connect($server, $username, $password, $database);
-  session_start();
-   if(!$_SESSION['users']){
-    header("location: login.php");
-   }
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/w3.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 <body>
   <?php include 'includes/header.php'?>

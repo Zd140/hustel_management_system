@@ -9,16 +9,19 @@
         </button>
         <nav class="nav">
           <ul>
-            <li><a href="index.php" class="active">home</a></li>
-            <li><a href="view.php">view rooms</a></li>
+            <li><a href="welcome.php" class="active"> <i class="uil uil-estate"></i> home</a></li>
+            <li><a href="view.php"><i class="uil uil-eye"></i>view rooms</a> </li>
             
-            <li><a href="checkin.php"> Checkin</a></li>
+            <li><a href="checkin.php"> <i class="uil uil-clipboard-notes"></i>Checkin</a></li>
             
-            <li><a href="about.php" class="active">about</a></li>
-            <li><a href="contact.php" class="active">Contact</a></li>
-            <li><a href="profile.php" class="active">profile <span style="" ></span></a></li>
-            <li><a href="dashboard.php" class="active">Dashbpard</a></li>
-            <li><a href="logout.php" class="active">logout</a></li>
+            <li> 
+             
+              <a href="about.php" class="active">about</a>
+            </li>
+            <li><a href="contact1.php" class="active"><i class="uil uil-comment-message"></i>Contact</a></li>
+            <li><a href="profile.php" class="active"><i class="uil uil-user"></i>profile <span style="" ></span></a></li>
+            <li><a href="dashboard.php" class="active"> <i class="uil uil-tachometer-fast-alt"></i>Dashbpard</a></li>
+            <li><a href="logout.php" class="active"> <i class="uil uil-signout"></i>logout</a></li>
             <div class="logo-name">
             <div class="logo-name">
     </div>
