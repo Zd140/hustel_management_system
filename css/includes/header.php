@@ -21,13 +21,15 @@
             <li> 
               <a href="about1.php" class="active">about</a>
             </li>
-            <li> 
+            <li>
               <a href="contact1.php" class="active"><i class="uil uil-comment-message"></i>Contact</a>
             </li>
             <li>
               <a href="profile.php" class="active"><i class="uil uil-user"></i>profile <span style="" ></span></a>
             </li>
-           
+            <li>
+              <a href="dashboard.php" class="active"> <i class="uil uil-tachometer-fast-alt"></i>Dashbpard</a>
+            </li>
             <li>
               <a href="logout.php" class="active"> <i class="uil uil-signout"></i>logout</a>
             </li>

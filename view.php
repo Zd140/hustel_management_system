@@ -14,7 +14,7 @@
 .bot{
   background: red;
     color: #fff;
-
+    border:none;
     font-size: 1.2em;
     opacity: .7;
     transition: opacity .3s ease;
@@ -23,7 +23,10 @@
     border-radius:10px;
     display:center;
 }
-
+.bot:hover{
+  background:white;
+  color:red;
+}
 
 </style>
 
@@ -65,7 +68,7 @@
 <!--ROOM DISPLAY AS SPECIFIED ABOVE-->
 <div class="w3-container" style="background-color: rgba(255, 255, 255, 0.7);">
   <!--collage hostel rooms-->
-  <button class="bot"><a href="collage.php"><h2>collage rooms</h2></a></button>
+  <button class="bot" title="click to view room discription"><a href="collage.php"><h2>collage rooms</h2></a></button>
       <div class="w3-row-padding w3-margin-top">
         <div class="w3-third">
           <div class="w3-card">
@@ -88,7 +91,7 @@
           </div>
         </div>
       </div>
-      <button class="bot"><a href="hostel.php"><h2>Hostel rooms</h2></a></button>
+      <button class="bot"><a href="hostel.php "title="click to view room discription"><h2>Hostel rooms</h2></a></button>
       <div class="w3-row-padding w3-margin-top">
         <div class="w3-third">
           <div class="w3-card">
@@ -109,7 +112,7 @@
         </div>
       </div>
 
-      <button class="bot"><a href="dorm.php"><h2>Dorm rooms</h2></a></button>
+      <button class="bot"><a href="dorm.php"title="click to view room discription"><h2>Dorm rooms</h2></a></button>
       <div class="w3-row-padding w3-margin-top">
         <div class="w3-third">
           <div class="w3-card">
@@ -130,7 +133,7 @@
         </div>
       </div>
 
-      <button class="bot"><a href="private.php"><h2> Private single rooms</h2></a></button>
+      <button class="bot"><a href="private.php"title="click to view room discription"><h2> Private single rooms</h2></a></button>
       <div class="w3-row-padding w3-margin-top">
         <div class="w3-third">
           <div class="w3-card">

@@ -9,10 +9,10 @@
         </button>
         <nav class="nav">
           <ul>    
-            <li><a href="sigin.php" class="active">register</a></li>
-            <li><a href="login.php" class="active">login</a></li>
+            <li><a href="sigin.php" class="active"><i class="uil uil-clipboard-notes"></i>register</a></li>
+            <li><a href="login.php" class="active"><i class="uil uil-signin"></i>login</a></li>
             <li><a href="about.php" class="active">about</a></li>
-            <li><a href="contact.php" class="active">Contact</a></li>
+            <li><a href="contact.php" class="active"><i class="uil uil-phone-alt"></i>Contact</a></li>
             
             <div class="logo-name">
             <div class="logo-name">

@@ -118,7 +118,7 @@ function test_input($data) {
             header('location:welcome.php');
         }
         elseif($row['usertype'] === "admin"){
-            header('locatiion:dashboard.php');
+            header('location:dashboard.php');
         }else{
             echo"<script>alert('invalid login details')</script>";
         }

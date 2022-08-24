@@ -110,24 +110,10 @@
         <i class="uil uil-user"></i> 
           <span class="text">Registered members</span> 
         </div>
-          <!--collecting data ffrom the database to admin dashboard-->
-          <?php
-            $server = "localhost";
-            $username = "root";
-            $password = "";
-            $database = "users";
-            session_start();
-            //conncting to databese
-            $conn = mysqli_connect($server, $username, $password, $database);
-
-            $query = "SELECT * FROM registered";
-            $query_run = mysqli_query($conn,$sql);
-
-
-          ?>
-        <table class="activity-data">
+<!--collecting data ffrom the database to admin dashboard-->
+        <div class="activity-data">
           <div class="data names">
-            <th class="data-title">User names</th>
+            <span class="data-title">User names</span>
             <span class="data-list">john doa</span>
           </div>
           <div class="data emails">
@@ -142,7 +128,7 @@
             <span class="data-title">region</span>
             <span class="data-list">southwest</span>
           </div>
-        </table>
+        </div>
       </div>
     </div>
   </section>

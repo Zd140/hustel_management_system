@@ -133,7 +133,7 @@ if(isset($_POST['submit'])){
     $run = mysqli_query($conn, $qeury) or die(mysqli_error());
 
     if($run){
-      header("location:login.php");
+      header("location:welcome.php");
 
     }else{
         echo "<script>alert('registration unsuccesfull')</script>";

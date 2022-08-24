@@ -7,39 +7,45 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/w3.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/forms.css">
+  <link rel="stylesheet" href="css/profile.css">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   
 </head>
 <body>
   <?php include 'includes/header.php'?>
 
-  <section>
-            <div class="form-container">
-                <h1>Uer Profile</h1>
-                <form action="">
-                    <div class="control">
-                        <label for="name">Username</label>
-                        <input type="text" name="name" id="name" placeholder="Username">
-                    </div>
-                    <div class="control">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="example@gmail.com">
-                    </div>
-                    
-                    <div class="control">
-                        <label for="psw">Password</label>
-                        <input type="password" name="psw" id="psw"placeholder="Password">
-                    </div>
-                    <div class="control">
-                        <input type="submit" value="Edit prifile">
-                    </div>
-                </form>
-                
+    <section>
+        <div class="profile-container">
+            <div class="user_icon">
+                <img src="pics/profile.jpg" alt="" >
             </div>
-        </section>
-        <!--foooter-->
-        <?php include 'includes/footer.php'?>
+            <div class="user_info">
+                <label for="username">User name:</label>
+                <span class="user-info"> John doe</span>
+            </div>
+
+            <div class="user_info">
+                <label for="username">Email:</label>
+                <span class="user-info">Johndoe@gamil.com</span>
+            </div>
+
+            <div class="user_info">
+                <label for="username">Password:</label>
+                <span class="user-info">............</span>
+            </div>
+
+            <div class="user_info">
+                <label for="username">Phone number:</label>
+                <span class="user-info">658421744</span>
+            </div>
+            <div class="updates">
+                <div class="bot-1"><button>Edit</button></div>
+                <div class="bot-2"><button>save</button></div>
+            </div>
+        </div>
+     </section>
+    <!--foooter-->
+    <?php include 'includes/footer.php'?>
   <script src="javascript/script.js"></script>
   <script src="javascript/view.js"></script>
 </body>
