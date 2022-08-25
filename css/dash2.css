@@ -228,3 +228,15 @@ body {
     border-radius:10px;
     margin-left: 20%;
   }
+  .edit1{
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    background: green;
+    right: 12px;
+    color: white;
+  }
+  .edit1:hover{
+    color: green;
+    background: white;
+  }

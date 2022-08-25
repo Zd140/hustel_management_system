@@ -90,7 +90,7 @@ function test_input($data) {
                     </div>
                 </form>
                 <div class="link">
-                   <span>Already have an account ?<a href="login.php">login</a></span> 
+                   <span>Not a nember ?<a href="sigin.php.php">Signin</a></span> 
                 </div>
             </div>
         </section>
@@ -118,7 +118,7 @@ function test_input($data) {
             header('location:welcome.php');
         }
         elseif($row['usertype'] === "admin"){
-            header('location:dashboard.php');
+            header('location:dashboard2.php');
         }else{
             echo"<script>alert('invalid login details')</script>";
         }

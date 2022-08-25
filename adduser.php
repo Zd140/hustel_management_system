@@ -8,15 +8,15 @@
   <link rel="stylesheet" href="css/w3.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/forms.css">
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> 
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   
 </head>
 <body>
-  <?php include 'include/header.php'?>
+
   <?php
 // define variables and set to empty values
-$nameErr = $emailErr = $telErr = $messageErr="";
-$name = $email = $tel = $message = "";
+$nameErr = $emailErr = $passwordErrr = $password2Err="";
+$name = $email = $password = $password2 = "";
 
 //username validation
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
@@ -44,21 +44,26 @@ if (empty($_POST["email"])) {
 }
 
 //password validation
-if (empty($_POST["tel"])){
-    $telErr = "Phone number is required";
+if (empty($_POST["password"])){
+    $passwordErrr = "Password is required";
 }else{
-    $tel = test_input($_POST["tel"]);
+    $password = test_input($_POST["password"]);
+}
+if (strlen($password) < 8){
+    $passwordErrr = "8 characters min required";
+
 }
 
-
 //password confirmation
-if (empty($_POST["message"])){
-    $messageErr = "Required";
+if (empty($_POST["password2"])){
+    $password2Err = "Confirm Password";
 }else{
-    $message = test_input(($_POST["message"]));
+    $password2 = test_input(($_POST["password2"]));
 } 
 
-
+if($password2 !== $password){
+    $password2Err = "Password doesn't match";
+}
 
 //
 function test_input($data) {
@@ -69,82 +74,74 @@ function test_input($data) {
   }
 
 ?>
+
   <section>
             <div class="form-container">
-                <h1>contact us
-                
-                </h1>
+                <h1>add user</h1>
                 <form action="" method="post" auto_comple="off" id="form">
                     <div class="control">
                         <label for="name">Username</label>
-                        <input type="text" name="name" id="name" placeholder="Username" required value="<?php echo $name;?> ">
+                        <input type="text" name="name" id="name" placeholder="Username" value="<?php echo $name;?>">
                         <span class="error"> <?php echo $nameErr;?></span>
                     </div>
-                    
                     <div class="control">
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" placeholder="example@gmail.com" value="<?php echo $email;?>">
                         <span class="error"> <?php echo $emailErr;?></span>
                     </div>
-
-                    <div class="control">
-                        <label for="phone">Tel</label>
-                        <input type="tel" name="tel" id="tel" placeholder="Phone number" value="<?php echo $tel;?>">
-                        <span class="error"> <?php echo $telErr;?></span>
-                    </div>
-                    <div class="control">
-                        <label for="text" value="<?php echo $message;?>">Comment</label>
-                        <textarea name="message" ></textarea>
-                        <span class="error"> <?php echo $messageErr;?></span>
-                    </div>
                     
                     <div class="control">
-                        <input type="submit" value="contact" name="submit">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password"placeholder="Password" value="<?php echo $password;?>">
+                        <span class="error"> <?php echo $passwordErrr;?></span>
+                    </div>
+                    <div class="control">
+                        <label for="password2">Password</label>
+                        <input type="password" name="password2" id="password2"placeholder="Password2" value="<?php echo $password2;?>">
+                        <span class="error"> <?php echo $password2Err;?></span>
+                    </div>
+                    <div class="control">
+                        <input type="submit" value="submit"name = "submit">
                     </div>
                 </form>
                 
             </div>
         </section>
-
-        <?php
+        <!--foooter-->
+<?php
 $server = "localhost";
 $username = "root";
 $password = "";
 $database = "users";
-
 //conncting to databese
 $conn = mysqli_connect($server, $username, $password, $database);
+
 //checking if conected to database
 if(isset($_POST['submit'])){
-  if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['tel'])&& !empty($_POST['message'])){
-
+  if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['password'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $tel = $_POST['tel'];
-    $message = $_POST['message'];
-    
+    $password = $_POST['password'];
 
     //inserting values to datadase
 
-    $qeury = "insert into contact(name, email, tel,message) values('$name', '$email', '$tel', '$message')";
-    $run = mysqli_query($conn, $qeury) or die(mysqli_error($conn));
+    $qeury = "insert into registered(name, email, password) values('$name', '$email', '$password')";
+    $run = mysqli_query($conn, $qeury) or die(mysqli_error());
 
     if($run){
-      echo "<script>alert('submition succesfull')</script>";
-     
+        header('location:dashboard2.php');
     }else{
-      echo "<script>alert('submition unsuccesfull')</script>";
+        echo "<script>alert('not succesful')</script>";
     }
   }else {
     echo "<script>alert('all input field required')</script>";
   }
 }
-
 ?>
 
-        <!--foooter-->
-        <?php include 'includes/footer.php'?>
+ 
   <script src="javascript/script.js"></script>
   <script src="javascript/view.js"></script>
+
 </body>
 </html>

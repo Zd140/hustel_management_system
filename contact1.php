@@ -77,19 +77,19 @@ function test_input($data) {
                 <form action="" method="post" auto_comple="off" id="form">
                     <div class="control">
                         <label for="name">Username</label>
-                        <input type="text" name="name" id="name" placeholder="Username" required value="<?php echo $name;?> ">
+                        <input type="text" name="name" id="name" placeholder="Username" required >
                         <span class="error"> <?php echo $nameErr;?></span>
                     </div>
                     
                     <div class="control">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="example@gmail.com" value="<?php echo $email;?>">
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com" >
                         <span class="error"> <?php echo $emailErr;?></span>
                     </div>
 
                     <div class="control">
                         <label for="phone">Tel</label>
-                        <input type="tel" name="tel" id="tel" placeholder="Phone number" value="<?php echo $tel;?>">
+                        <input type="tel" name="tel" id="tel" placeholder="Phone number" >
                         <span class="error"> <?php echo $telErr;?></span>
                     </div>
                     <div class="control">
@@ -99,25 +99,49 @@ function test_input($data) {
                     </div>
                     
                     <div class="control">
-                        <input type="submit" value="contact">
+                        <input type="submit" value="contact"  name="submit">
                     </div>
                 </form>
                 
             </div>
         </section>
-
+<br><br>
         <?php
-echo "<h2>Your Input:</h2>";
-echo $name;
-echo "<br>";
-echo $email;
-echo "<br>";
-echo $tel;
-echo "<br>";
-echo $message;
-echo "<br>";
+$server = "localhost";
+$username = "root";
+$password = "";
+$database = "users";
+
+//conncting to databese
+$conn = mysqli_connect($server, $username, $password, $database);
+//checking if conected to database
+if(isset($_POST['submit'])){
+  if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['tel'])&& !empty($_POST['message'])){
+
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $tel = $_POST['tel'];
+    $message = $_POST['message'];
+    
+
+    //inserting values to datadase
+
+    $qeury = "insert into contact(name, email, tel,message) values('$name', '$email', '$tel', '$message')";
+    $run = mysqli_query($conn, $qeury) or die(mysqli_error($conn));
+
+    if($run){
+      echo "<script>alert('submition succesfull')</script>";
+     
+    }else{
+      echo "<script>alert('submition unsuccesfull')</script>";
+    }
+  }else {
+    echo "<script>alert('all input field required')</script>";
+  }
+}
 
 ?>
+
         <!--foooter-->
         <?php include 'includes/footer.php'?>
   <script src="javascript/script.js"></script>

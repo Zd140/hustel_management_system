@@ -20,10 +20,9 @@
           </div>
         <a class="active" href="dashboard2.php">dashboard</a>
         <a href="checked.php">Checkedin users</a>
-        <a href="contact2.php">Contact users</a>
+        <a href="contact2.php">Contacted Users</a>
         <a href="viewr.php">Added rooms</a>
-        <a href="#contact">Adim profile</a>
-        
+        <a href="profile.php">Adim profile</a>
         <a href="#about">login user</a>
         <a href="logout.php" class=""> <i class="uil uil-signout"></i>logout</a>
         
@@ -64,8 +63,8 @@
         <div class="activity">
             <div class="title">
             <i class="uil uil-user"></i> 
-              <span class="text">Registered members</span> 
-              <div class="text" style="margin-left:250px;"> <button class="edit1" style="width:90px;"><a href="adduser.php" style="text-decoration: none;">Adduser</a></button></div>
+              <span class="text">Added rooms</span> 
+              <div class="text" style="margin-left:250px;"> <button class="edit1" style="width:90px;"><a href="addroom.php" style="text-decoration: none;">add room</a></button></div>
         </div>
          
 <div style="overflow-x:auto;">
@@ -79,17 +78,17 @@ session_start();
 //conncting to databese
 $conn = mysqli_connect($server, $username, $password, $database);
 
-$query = "SELECT * FROM registered";
+$query = "SELECT * FROM rooms";
 $query_run = mysqli_query($conn,$query);
 ?>
     <table>
       <thead>
       <tr>
         <th>User ID</th>
-        <th>User name</th>
-        <th>Email</th>
-        <th>Password</th>
-        <th>User-type</th>
+        <th>Room type</th>
+        <th>Number of occupants</th>
+        <th>Amount per room</th>
+        <th>picture</th>
         <th>Operations</th>
 
         
@@ -104,14 +103,15 @@ $query_run = mysqli_query($conn,$query);
            
           
       <tr>
-        <td><?php  echo  $row['ID'];  ?></td> 
+        <td><?php  echo  $row['id'];  ?></td> 
         <td><?php echo  $row['name']; ?></td> 
-        <td> <?php echo  $row['email']; ?> </td>
-        <td> <?php echo  $row['password']; ?> </td>
-        <td> <?php echo  $row['usertype']; ?></td>
+        <td> <?php echo  $row['number']; ?> </td>
+        <td> <?php echo  $row['amount']; ?> </td>
+        <td> <?php echo  $row['picture']; ?></td>
+        
         <td>
-        <button class="edit"><a href="update.php">Edit</a></button>
-          <button class="delite"><a href="delete.php">Delete</a></button>
+        <button class="edit">Edit</button>
+          <button class="delite">Delite</button>
           
         </td>
       </tr>
