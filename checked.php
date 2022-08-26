@@ -20,7 +20,7 @@
           </div>
         <a class="active" href="dashboard2.php">dashboard</a>
         <a href="checked.php">Checkedin users</a>
-        <a href="contact2.php">Contacted user users</a>
+        <a href="contact2.php">Contacted users</a>
         <a href="viewr.php">Added rooms</a>
         <a href="profile.php">Adim profile</a>
         
@@ -73,7 +73,7 @@
 
 $server = "localhost";
 $username = "root";
-$password = "";
+$password = "4ULgJ5XjDGda";
 $database = "users";
 session_start();
 //conncting to databese
@@ -116,9 +116,11 @@ $query_run = mysqli_query($conn,$query);
         <td> <?php echo  $row['date1']; ?></td>
         <td> <?php echo  $row['date2']; ?></td>
         <td>
-        <button class="edit">Edit</button>
-          <button class="delite">Delite</button>
-          
+     
+        <form action="code2.php" method="post">
+            <input type="hidden" name="delete_id" value="<?php  echo  $row['id'];  ?>">
+              <button class="delite" name="delete_btn">Delete</button>
+          </form>          
         </td>
       </tr>
       <?php

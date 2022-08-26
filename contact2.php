@@ -72,7 +72,7 @@
 
 $server = "localhost";
 $username = "root";
-$password = "";
+$password = "4ULgJ5XjDGda";
 $database = "users";
 session_start();
 //conncting to databese
@@ -110,8 +110,10 @@ $query_run = mysqli_query($conn,$query);
         <td> <?php echo  $row['message']; ?></td>
         
         <td>
-        <button class="edit">Edit</button>
-          <button class="delite">Delite</button>
+        <form action="code3.php" method="post">
+            <input type="hidden" name="delete_id" value="<?php  echo  $row['id'];  ?>">
+              <button class="delite" name="delete_btn">Delete</button>
+          </form> 
           
         </td>
       </tr>

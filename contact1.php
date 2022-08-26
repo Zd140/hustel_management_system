@@ -109,7 +109,7 @@ function test_input($data) {
         <?php
 $server = "localhost";
 $username = "root";
-$password = "";
+$password = "4ULgJ5XjDGda";
 $database = "users";
 
 //conncting to databese
