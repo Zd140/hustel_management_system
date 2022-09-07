@@ -78,26 +78,11 @@
   <div class="w3-half">
     <div class="w3-panel w3-card w3-white"   style="height:100px;margin-left:10px;">
     <div class="w3-center" style="padding-top:15px;">
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
+    <i class="uil uil-favorite"></i>
+    <i class="uil uil-favorite"></i>
+    <i class="uil uil-favorite"></i>
+    <i class="uil uil-favorite"></i>
+    <i class="uil uil-favorite"></i>
       <br>
       <span>This is a place to be. I'll give 5stars</span><br>
       <span class="fa-stack ">
@@ -110,22 +95,10 @@
     <div class="w3-panel w3-card w3-white " style="height:100px;margin-left:10px;">
 
     <div class="w3-center" style="padding-top:15px;">
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
+    <i class="uil uil-favorite"></i>
+    <i class="uil uil-favorite"></i>
+    <i class="uil uil-favorite"></i>
+    <i class="uil uil-favorite"></i>
       
       <br>
       <span>I love the location .It's so nice I'll give 4stars</span><br>
@@ -141,26 +114,11 @@
     <div class="w3-panel w3-card w3-white" style="height:100px;margin-left:10px;">
 
     <div class="w3-center" style="padding-top:15px;">
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
+    <i class="uil uil-favorite"></i>
+    <i class="uil uil-favorite"></i>
+    <i class="uil uil-favorite"></i>
+    <i class="uil uil-favorite"></i>
+    <i class="uil uil-favorite"></i>
       <br>
       <span>It's just so confortable. I'll give 5stars</span><br>
       <span class="fa-stack ">
@@ -173,18 +131,9 @@
   <div class="w3-panel w3-card w3-white" style="height:100px;margin-left:10px;">
   
   <div class="w3-center" style="padding-top:15px;">
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="fa-stack ">
-        <i class="fa fa-circle fa-stack-2x "></i>
-        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-      </span>
+  <i class="uil uil-favorite"></i>
+  <i class="uil uil-favorite"></i>
+  <i class="uil uil-favorite"></i>
       
       <br>
       <span>I'll recomend for all. I'll give 3stars</span><br>

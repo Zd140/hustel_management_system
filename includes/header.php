@@ -19,7 +19,7 @@
             </li>
             
             <li> 
-              <a href="about1.php" class="active">about</a>
+              <a href="about1.php" class="active"><i class="uil uil-comment-info"></i>about</a>
             </li>
             <li>
               <a href="contact1.php" class="active"><i class="uil uil-comment-message"></i>Contact</a>
